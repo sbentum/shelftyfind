@@ -156,7 +156,7 @@ function doInsert(){
 			$cur = $mydb->loadSingleResult();
  
 
-	        $sql = "INSERT INTO `messageout` (`Id`, `MessageTo`, `MessageFrom`, `MessageText`) VALUES (Null, '".$cur->PHONE."','Janno','FROM Bachelor of Science and Entrepreneurs : Your order has been '".$status. "'. The amount is '".$cur->PAYMENT. "')";
+	        $sql = "INSERT INTO `messageout` (`Id`, `MessageTo`, `MessageFrom`, `MessageText`) VALUES (Null, '".$cur->PHONE."','Janno','FROM  shelftyfind : Your order has been '".$status. "'. The amount is '".$cur->PAYMENT. "')";
 	        $mydb->setQuery($sql);
 	        $mydb->executeQuery();
 
@@ -171,7 +171,7 @@ function doInsert(){
 	  		$cur = $mydb->loadResultList(); 
 			foreach ($cur as $result) {
 			 
-	  		 $sql = "INSERT INTO `messageout` (`Id`, `MessageTo`, `MessageFrom`, `MessageText`) VALUES (Null, '".$result->OWNERPHONE."','Janno','FROM Bachelor of Science and Entrepreneurs : Your  product has been ordered'. The amount is '".$result->PAYMENT. "')";
+	  		 $sql = "INSERT INTO `messageout` (`Id`, `MessageTo`, `MessageFrom`, `MessageText`) VALUES (Null, '".$result->OWNERPHONE."','Janno','FROM  shelftyfind : Your  product has been ordered'. The amount is '".$result->PAYMENT. "')";
 	        $mydb->setQuery($sql);
 	        $mydb->executeQuery();
 	 

@@ -151,6 +151,11 @@ $singleuser = $user->single_user($_SESSION['USERID']);
                              <a href="<?php echo web_root; ?>admin/category/index.php" ><i class="fa fa-list-alt fa-fw"></i>  Categories </a>
             
                         </li>
+
+                        <li>
+                             <a href="<?php echo web_root; ?>admin/floor/index.php" ><i class="fa fa-list-alt fa-fw"></i> Floors </a>
+            
+                        </li>
                         <?php if ($_SESSION['U_ROLE']=='Administrator') {
                             # code...
                         ?>
@@ -399,5 +404,5 @@ $('#date_picker').datetimepicker({
   
   
 </body> 
-      <footer><p  style="text-align: center;font-weight: bold;">Copyright &copy; Bachelor of Science and Entrepreneurs </p></footer>
+      <footer><p  style="text-align: center;font-weight: bold;">Copyright &copy;  shelftyfind </p></footer>
 </html>

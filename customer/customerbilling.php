@@ -19,7 +19,7 @@ $query = "SELECT * FROM `tblsummary` s ,`tblcustomer` c
         <img src="<?php echo web_root; ?>images/bg2.jpg"  height="90px" style="-webkit-border-radius:5px; -moz-border-radius:5px;" alt="Image">
             </td>
         <td width="87%" align="center">
-        <h3 >Bachelor of Science and Entrepreneurs</h3> 
+        <h3 > shelftyfind</h3> 
         </td>
       </tr>
     </table>
